@@ -8,7 +8,7 @@ branches:
   - master
 script:
 - hexo generate
-- echo $GH_TOKEN
+- echo $TEST
 deploy:
   provider: pages
   skip_cleanup: true
