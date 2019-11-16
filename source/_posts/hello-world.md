@@ -1,38 +1,10 @@
 ---
-title: Hello World
+title: 建站初心
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+其实想做个博客很久了，自从自己接触编程以来，就有了这个想法，一是想跟大家一起分享我的学习历程跟学习心得，二就是当作给自己的一个锻炼。
+我个人又不太喜欢那些写博客的平台，约束太多，我也没在那些平台上写过稿子，到后来我就有了自己搭建一个博客的想法，从前端到后端，到最后部署到服务器上
+我都想自己来做，但是不久我就又发现这样的工作量是很大的，自己维护也有一定的麻烦，所以最后选择了使用[GitHub Page](https://pages.github.com/)来搭建这个博客。
 
-## Quick Start
+现在的界面还不好看，也没有评论系统，但是后期会加上去的，到时候再来正式地完善这第一篇
 
-### Create a new post
-
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+加油，一起努力吧！！！
