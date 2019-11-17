@@ -1,6 +1,9 @@
 language: node_js
 node_js: stable
 
+git:
+  submodules: false
+
 # S: Build Lifecycle
 install:
   - npm install
@@ -9,6 +12,7 @@ install:
  # - npm install -g gulp
 
 script:
+  - hexo clean
   - hexo generate
 
 after_script:
