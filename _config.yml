@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 木景熙的个人小站
+title: 木景熙
 subtitle: 花开堪折直需折 莫待无花空折枝
 description: 静候有缘人
 keywords: 学习,编程,前端
@@ -91,7 +91,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next/hexo-theme-next
+theme: hexo-theme-next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
