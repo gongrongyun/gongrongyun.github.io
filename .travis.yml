@@ -18,6 +18,7 @@ script:
 
 after_script:
   - cd ./public
+  - cp ../CNAME ./
   - git init
   - git config user.name "gongrongyun"
   - git config user.email "1716175849@qq.com"
