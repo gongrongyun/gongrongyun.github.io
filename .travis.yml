@@ -9,11 +9,12 @@ install:
   - npm install
 
 #before_script:
- # - npm install -g gulp
+# - npm install -g gulp
 
 script:
   - hexo clean
   - hexo generate
+  - hexo deploy
 
 after_script:
   - cd ./public
@@ -29,5 +30,5 @@ branches:
   only:
     - source
 env:
- global:
-   - GH_REF: github.com/gongrongyun/gongrongyun.github.io.git
+  global:
+    - GH_REF: github.com/gongrongyun/gongrongyun.github.io.git

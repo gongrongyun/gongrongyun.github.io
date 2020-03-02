@@ -8,7 +8,7 @@ subtitle: 花开堪折直需折 莫待无花空折枝
 description: 静候有缘人
 keywords: 律师, 法律
 author: 龚歆律师
-language: zh-CN
+language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
@@ -39,7 +39,7 @@ external_link:
   field: site # Apply to the whole site
   exclude: ""
 filename_case: 0
-render_drafts: true
+render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
@@ -87,11 +87,21 @@ include:
 exclude:
 ignore:
 
+# sitemap
+baidusitemap:
+  path: baidusitemap.xml
+
+baidu_url_submit:
+  count: 10
+  host: blog.grylzl.xyz
+  token: fGa0Be6G6SFJmyxe
+  path: baidu_urls.txt
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-# deploy:
-#   type: ''
+deploy:
+  type: baidu_url_submitter
