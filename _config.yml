@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.grylzl.xyz
+url: http://blog.grylzl.work
 root: /
 permalink: :title/
 permalink_defaults:
@@ -93,7 +93,7 @@ baidusitemap:
 
 baidu_url_submit:
   count: 10
-  host: blog.grylzl.xyz
+  host: blog.grylzl.work
   token: fGa0Be6G6SFJmyxe
   path: baidu_urls.txt
 
