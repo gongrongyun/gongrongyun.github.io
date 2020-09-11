@@ -14,7 +14,7 @@ install:
 script:
   - hexo clean
   - hexo generate
-  # - hexo deploy
+  - hexo deploy
 
 after_script:
   - cd ./public
